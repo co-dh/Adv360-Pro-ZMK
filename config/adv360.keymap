@@ -38,7 +38,7 @@
 &kp TAB           &kp Q     &kp W    &kp F     &kp P      &kp V   &kp EQUAL                                                                       &kp LEFT_BRACKET     &kp J   &kp L     &kp U         &kp Y        &kp SEMICOLON  &kp BSLH
 &kp ESC           &kp A     &kp R    &kp S     &kp T      &kp G   &kp CAPS            &kp LEFT_GUI  &mo 1           &mo 1          &kp RIGHT_GUI  &kp RIGHT_BRACKET    &kp M   &kp N     &kp E         &kp I        &kp O          &kp SQT
 &kp LSHFT         &kp Z     &kp X    &kp C     &kp D      &kp B                                     &kp DELETE      &kp INS                                            &kp K   &kp H     &kp COMMA     &kp DOT      &kp FSLH       &kp RSHFT
-&kp LEFT_CONTROL  &kp HOME  &kp END  &kp LEFT  &kp RIGHT          &mt LEFT_ALT SPACE  &kp RET       &mo 1           &kp RIGHT_ALT  &kp BACKSPACE  &mt RIGHT_ALT SPACE          &kp DOWN  &kp UP_ARROW  &kp PAGE_UP  &kp PAGE_DOWN  &kp RCTRL
+&kp LEFT_CONTROL  &kp HOME  &kp END  &kp LEFT  &kp RIGHT          &hm LEFT_ALT SPACE  &kp RET       &mo 1           &kp RIGHT_ALT  &kp BACKSPACE  &hm RIGHT_ALT SPACE          &kp DOWN  &kp UP_ARROW  &kp PAGE_UP  &kp PAGE_DOWN  &kp RCTRL
             >;
         };
 
