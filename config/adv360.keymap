@@ -76,7 +76,7 @@
         };
 
         nav {
-            display-name = "Fn";
+            display-name = "Nav";
             bindings = <
 &trans  &kp LA(LC(F1))  &kp LA(LC(F2))  &trans          &trans          &trans  &trans                                          &trans  &trans           &trans     &trans    &trans    &trans  &trans
 &trans  &kp GRAVE       &kp DELETE      &kp LS(INSERT)  &kp LC(INSERT)  &trans  &trans                                          &trans  &trans           &trans     &trans    &trans    &trans  &trans
