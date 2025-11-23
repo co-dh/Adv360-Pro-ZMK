@@ -54,7 +54,7 @@
         };
 
         sym {
-            display-name = "Kp";
+            display-name = "Sym";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans                 &trans           &trans           &trans        &trans                &trans             &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans                 &kp LEFT_BRACE   &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp PIPE           &trans
@@ -65,7 +65,7 @@
         };
 
         fn {
-            display-name = "Kp";
+            display-name = "Fn";
             bindings = <
 &trans  &kp LA(LC(F1))  &kp LA(LC(F2))  &trans  &trans  &trans  &trans                                       &trans     &trans           &trans             &trans  &trans  &trans   &trans
 &trans  &trans          &trans          &trans  &trans  &trans  &trans                                       &trans     &kp SYSREQ       &kp F7             &kp F8  &kp F9  &kp F12  &trans
@@ -87,7 +87,7 @@
         };
 
         mouse {
-            display-name = "Fn";
+            display-name = "Mouse";
             bindings = <
 &trans  &trans          &trans        &trans          &trans           &trans  &trans                                            &trans  &trans  &trans     &trans  &trans  &trans  &trans
 &trans  &caps_word      &kp K_CUT     &kp LS(INSERT)  &kp LC(INSERT)   &trans  &trans                                            &trans  &trans  &trans     &trans  &trans  &trans  &trans
