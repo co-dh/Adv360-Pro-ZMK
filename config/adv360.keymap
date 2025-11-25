@@ -15,16 +15,32 @@
         #include "macros.dtsi"
       #include "version.dtsi"
 
-        hm: homerow_mods {
+        hm: homerow_modsL {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
+            label = "HOMEROW_MODSL";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick_tap_ms = <175>;
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";
             bindings = <&kp>, <&kp>;
 
             require-prior-idle-ms = <200>;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <7 21 40 39 54 8 22 9 23 41 55 71 10 24 42 56 72 25 11 43 57 73 12 26 44 58 74 75 59 45 27 13 38 37 53 68 69 70>;
+        };
+
+        hmr: hmr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HMR";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick_tap_ms = <175>;
+            flavor = "hold-preferred";
+            bindings = <&kp>, <&kp>;
+
+            require-prior-idle-ms = <200>;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <0 0 14 28 46 60 1 2 3 4 5 6 15 16 17 18 19 20 29 30 31 32 33 34 35 36 47 48 49 50 51 52 61 62 63 64 65 66 67>;
         };
     };
 
@@ -34,11 +50,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp GRAVE           &kp N1          &kp N2          &kp N3       &kp N4            &kp N5  &tog 1                                                                 &mo 6              &kp N6  &kp N7            &kp N8        &kp N9          &kp N0           &kp MINUS
-&kp TAB             &kp Q           &kp W           &kp F        &kp P             &kp V   &kp EQUAL                                                              &kp LEFT_BRACKET   &kp J   &kp L             &kp U         &kp Y           &kp SEMICOLON    &kp BSLH
-&kp ESC             &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LCTRL S  &hm LEFT_SHIFT T  &kp G   &kp CAPS     &kp LEFT_GUI  &kp LCTRL       &kp RCTRL  &kp RIGHT_GUI    &kp RIGHT_BRACKET  &kp M   &hm LEFT_SHIFT N  &hm RCTRL E   &hm LEFT_ALT I  &hm RIGHT_GUI O  &kp SQT
-&kp LSHFT           &kp Z           &kp X           &kp C        &kp D             &kp B                              &kp DELETE      &kp INS                                        &kp K   &kp H             &kp COMMA     &kp DOT         &kp FSLH         &kp RSHFT
-&lt 3 LEFT_BRACKET  &kp HOME        &kp END         &kp LEFT     &kp RIGHT                 &lt 1 SPACE  &lt 2 ENTER   &mo 3           &to 0      &lt 5 BACKSPACE  &lt 4 SPACE                &kp DOWN          &kp UP_ARROW  &kp PAGE_DOWN   &kp PAGE_UP      &hm RCTRL RIGHT_BRACKET
+&kp GRAVE           &kp N1          &kp N2          &kp N3       &kp N4            &kp N5  &tog 1                                                                 &mo 6              &kp N6  &kp N7             &kp N8        &kp N9           &kp N0            &kp MINUS
+&kp TAB             &kp Q           &kp W           &kp F        &kp P             &kp V   &kp EQUAL                                                              &kp LEFT_BRACKET   &kp J   &kp L              &kp U         &kp Y            &kp SEMICOLON     &kp BSLH
+&kp ESC             &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LCTRL S  &hm LEFT_SHIFT T  &kp G   &kp CAPS     &kp LEFT_GUI  &kp LCTRL       &kp RCTRL  &kp RIGHT_GUI    &kp RIGHT_BRACKET  &kp M   &hmr LEFT_SHIFT N  &hmr RCTRL E  &hmr LEFT_ALT I  &hmr RIGHT_GUI O  &kp SQT
+&kp LSHFT           &kp Z           &kp X           &kp C        &kp D             &kp B                              &kp DELETE      &kp INS                                        &kp K   &kp H              &kp COMMA     &kp DOT          &kp FSLH          &kp RSHFT
+&lt 3 LEFT_BRACKET  &kp HOME        &kp END         &kp LEFT     &kp RIGHT                 &lt 1 SPACE  &lt 2 ENTER   &mo 3           &to 0      &lt 5 BACKSPACE  &lt 4 SPACE                &kp DOWN           &kp UP_ARROW  &kp PAGE_DOWN    &kp PAGE_UP       &hm RCTRL RIGHT_BRACKET
             >;
         };
 
