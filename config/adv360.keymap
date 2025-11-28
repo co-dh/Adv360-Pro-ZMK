@@ -66,11 +66,11 @@
         keypad {
             display-name = "Kp";
             bindings = <
-&trans  &kp LA(F1)     &kp LA(F2)    &trans     &trans          &trans  &trans                                        &trans  &trans            &trans        &trans        &trans        &trans                &trans
-&trans  &trans         &trans        &trans     &trans          &trans  &trans                                        &trans  &kp EQUAL         &kp N7        &kp N8        &kp N9        &kp NON_US_BACKSLASH  &trans
-&trans  &kp LEFT_META  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans      &trans  &trans    &trans  &kp MINUS         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT               &trans
-&trans  &kp LC(Z)      &kp LC(X)     &kp LC(C)  &kp LC(V)       &trans                  &trans      &trans                    &kp LEFT_BRACKET  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp MINUS             &trans
-&trans  &trans         &trans        &trans     &kp KP_NUMLOCK          &trans  &trans  &trans      &trans  &kp BSPC  &kp N0                    &kp PERIOD    &none         &trans        &trans                &trans
+&trans  &kp LA(F1)     &kp LA(F2)    &trans     &trans          &trans  &trans                                        &trans  &trans            &trans        &trans        &trans        &trans             &trans
+&trans  &trans         &trans        &trans     &trans          &trans  &trans                                        &trans  &kp EQUAL         &kp N7        &kp N8        &kp N9        &kp BACKSLASH      &trans
+&trans  &kp LEFT_META  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans      &trans  &trans    &trans  &kp MINUS         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT            &trans
+&trans  &kp LC(Z)      &kp LC(X)     &kp LC(C)  &kp LC(V)       &trans                  &trans      &trans                    &kp LEFT_BRACKET  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACKET  &trans
+&trans  &trans         &trans        &trans     &kp KP_NUMLOCK          &trans  &trans  &trans      &trans  &kp BSPC  &kp N0                    &kp PERIOD    &none         &trans        &trans             &trans
             >;
         };
 
