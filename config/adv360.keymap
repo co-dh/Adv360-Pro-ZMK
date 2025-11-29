@@ -29,7 +29,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <100>;
             hold-trigger-on-release;
             hold-trigger-key-positions = <7 21 40 39 54 8 22 9 23 41 55 71 10 24 42 56 72 25 11 43 57 73 12 26 44 58 74 75 59 45 27 13 38 37 53 68 69 70>;
         };
