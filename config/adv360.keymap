@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &mmv {
-    time-to-max-speed-ms = <60>;
+    time-to-max-speed-ms = <200>;
     trigger-period-ms = <20>;
 };
 
