@@ -55,11 +55,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp GRAVE  &kp N1    &kp N2   &kp N3    &kp N4     &kp N5  &studio_unlock                                                                &mo 1              &kp N6  &kp N7    &kp N8        &kp N9         &kp N0         &kp MINUS
-&kp TAB    &kp Q     &kp W    &kp F     &kp P      &kp V   &kp EQUAL                                                                     &kp LEFT_BRACKET   &kp J   &kp L     &kp U         &kp Y          &kp SEMICOLON  &kp BSLH
-&kp ESC    &kp A     &kp R    &kp S     &kp T      &kp G   &kp CAPS        &kp LEFT_GUI  &kp LCTRL         &kp RGUI       &kp RCTRL      &kp RIGHT_BRACKET  &kp M   &kp N     &kp E         &kp I          &kp O          &kp SQT
-&kp LSHFT  &kp Z     &kp X    &kp C     &kp D      &kp B                                 &kp DELETE        &kp INS                                          &kp K   &kp H     &kp COMMA     &kp PERIOD     &kp FSLH       &kp RSHFT
-&mo 2      &kp HOME  &kp END  &kp LEFT  &kp RIGHT          &kp SPACE       &kp ENTER     &kp LEFT_ALT      &kp RIGHT_ALT  &kp BACKSPACE  &kp SPACE                  &kp DOWN  &kp UP_ARROW  &kp PAGE_DOWN  &kp PAGE_UP    &mo 2
+&kp GRAVE  &kp N1    &kp N2   &kp N3    &kp N4     &kp N5  &studio_unlock                                                             &mo 1              &kp N6  &kp N7    &kp N8        &kp N9         &kp N0         &kp MINUS
+&kp TAB    &kp Q     &kp W    &kp F     &kp P      &kp V   &kp EQUAL                                                                  &kp LEFT_BRACKET   &kp J   &kp L     &kp U         &kp Y          &kp SEMICOLON  &kp BSLH
+&kp ESC    &kp A     &kp R    &kp S     &kp T      &kp G   &kp CAPS        &kp LCTRL  &kp LGUI          &kp RGUI       &kp RCTRL      &kp RIGHT_BRACKET  &kp M   &kp N     &kp E         &kp I          &kp O          &kp SQT
+&kp LSHFT  &kp Z     &kp X    &kp C     &kp D      &kp B                              &kp DELETE        &kp INS                                          &kp K   &kp H     &kp COMMA     &kp PERIOD     &kp FSLH       &kp RSHFT
+&mo 2      &kp HOME  &kp END  &kp LEFT  &kp RIGHT          &kp SPACE       &kp ENTER  &kp LEFT_ALT      &kp RIGHT_ALT  &kp BACKSPACE  &kp SPACE                  &kp DOWN  &kp UP_ARROW  &kp PAGE_DOWN  &kp PAGE_UP    &mo 2
             >;
         };
 
